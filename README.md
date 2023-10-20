@@ -105,6 +105,18 @@ How will you validate your approach offline? What offline evaluation metrics wil
 
 If you're A/B testing, how will you assign treatment and control (e.g., customer vs. session-based) and what metrics will you measure? What are the success and [guardrail](https://medium.com/airbnb-engineering/designing-experimentation-guardrails-ed6a976ec669) metrics?
 
+
+Offline Validation:
+
+Validation Split: The dataset will be split into training and validation sets (e.g., 80% for training, 20% for validation) to assess the model's performance on unseen data.
+Metrics: Common metrics like accuracy, precision, recall, and F1-score will be calculated to evaluate the model's accuracy and ability to correctly identify cases of heart failure.
+
+A/B Testing:
+
+Assignment: A/B testing will be conducted at the user level, where healthcare providers will be randomly assigned to either the treatment group (using the machine learning system) or the control group (standard procedures).
+Metrics: The treatment group's response time, accuracy of interventions, and patient outcomes will be compared to the control group. Success metrics will include reduced response time, increased accuracy in identifying high-risk patients, and improved patient outcomes (such as reduced hospitalizations or prolonged life expectancy).
+Guardrail Metrics: Guardrail metrics will include ensuring that the accuracy of the machine learning system does not fall below a specified threshold, guaranteeing that patient data privacy is maintained, and verifying that the response time of the system remains within an acceptable range.
+
 ### 5.5. Human-in-the-loop
 
 How will you incorporate human intervention into your ML system (e.g., product/customer exclusion lists)?
