@@ -169,9 +169,23 @@ Feedback Loop: Healthcare professionals can provide feedback on predictions, con
 
 How will you host your system? On-premise, cloud, or hybrid? This will define the rest of this section
 
+The system will be hosted on a cloud-based infrastructure, leveraging the scalability, flexibility, and security features offered by cloud platforms. Cloud hosting allows seamless deployment, easy access, and efficient management of resources. Moreover, it ensures high availability, enabling healthcare professionals to use the system reliably and securely from various locations.
+
 ### 6.3. Performance (Throughput, Latency)
 
 How will your system meet the throughput and latency requirements? Will it scale vertically or horizontally?
+
+Throughput and Latency:
+
+Vertical Scaling: Initially, vertical scaling will be employed, ensuring the system's performance meets the expected throughput and latency requirements. Resources will be adjusted vertically by increasing CPU, memory, or storage capacity as needed.
+Scalability Strategy:
+
+Horizontal Scaling: To handle increasing user loads and growing datasets, the system will be designed to scale horizontally. This involves adding more servers or instances to the system, distributing the load efficiently. Load balancers and auto-scaling configurations will be implemented to ensure optimal resource utilization and maintain low latency even during peak usage periods.
+Performance Optimization:
+
+Caching: Frequently accessed data and model predictions will be cached to reduce processing time, enhancing overall system performance.
+Asynchronous Processing: Time-consuming tasks, such as model predictions, will be processed asynchronously to prevent bottlenecks and maintain low latency for user interactions.
+By implementing a cloud-based infrastructure, employing vertical and horizontal scaling strategies, and optimizing system performance through caching and asynchronous processing, the system will meet the throughput and latency requirements effectively, ensuring a seamless user experience for healthcare providers.
 
 ### 6.4. Security
 
