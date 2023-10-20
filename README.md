@@ -153,6 +153,18 @@ By incorporating these human-in-the-loop mechanisms, we ensure that the machine 
 
 Start by providing a big-picture view. [System-context diagrams](https://en.wikipedia.org/wiki/System_context_diagram) and [data-flow diagrams](https://en.wikipedia.org/wiki/Data-flow_diagram) work well.
 
+MÅ LEGGE INNN BILDE 
+
+System Context:
+The heart failure prediction system operates within a healthcare environment. Healthcare providers input patient data via a user-friendly web application. The input data is processed by the machine learning model, which predicts the likelihood of heart failure. Predictions and relevant patient information are then displayed back to the healthcare provider for review and action.
+
+Data Flow:
+
+Input: Healthcare providers enter patient data into the web application.
+Processing: The input data is processed by the machine learning model, utilizing the selected algorithms and features.
+Output: Predictions, along with the interpreted features, are displayed to healthcare providers.
+Feedback Loop: Healthcare professionals can provide feedback on predictions, contributing to model refinement and improvement.
+
 ### 6.2. Infra
 
 How will you host your system? On-premise, cloud, or hybrid? This will define the rest of this section
