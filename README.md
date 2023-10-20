@@ -121,6 +121,30 @@ Guardrail Metrics: Guardrail metrics will include ensuring that the accuracy of 
 
 How will you incorporate human intervention into your ML system (e.g., product/customer exclusion lists)?
 
+Incorporating human intervention, also known as the human-in-the-loop approach, is essential for maintaining the ethical and responsible use of machine learning systems, especially in sensitive domains like healthcare. Here's how we plan to integrate human oversight into our ML system:
+
+1. Model Interpretability:
+Utilize Explainable AI (XAI) techniques to make the model's predictions interpretable. This will allow healthcare professionals to understand the factors influencing predictions, fostering trust in the system.
+
+2. Threshold Setting:
+Allow healthcare providers to set decision thresholds based on their expertise and the specific needs of their patients. Depending on the patient population and the risk tolerance, healthcare professionals can adjust the threshold for classifying a patient as at-risk.
+
+3. Alert System:
+Implement an alert system that notifies healthcare providers when a patient is identified as high-risk. However, instead of automated actions, the system will prompt the healthcare provider for confirmation before any intervention. This step ensures that a qualified medical professional validates the prediction before any actions are taken.
+
+4. Continuous Feedback Loop:
+Establish a mechanism for healthcare professionals to provide feedback on the model's predictions. If a prediction is deemed incorrect, this feedback can be used for model retraining, enhancing the system's accuracy over time.
+
+5. Ethical Oversight:
+Create an ethics committee comprising medical professionals, data scientists, and ethicists. This committee will oversee the system's usage, ensuring it adheres to ethical guidelines, patient privacy regulations, and medical best practices.
+
+6. Regular Training and Education:
+Provide training to healthcare professionals about the limitations and capabilities of the machine learning system. Educating users about the system's strengths and weaknesses enables them to make informed decisions based on its predictions.
+
+7. Transparent Documentation:
+Document the model's features, limitations, and potential biases transparently. Clear documentation will empower healthcare providers to make decisions with a full understanding of the system's functioning.
+By incorporating these human-in-the-loop mechanisms, we ensure that the machine learning system acts as a valuable tool, augmenting the expertise of healthcare professionals rather than replacing it. Human oversight is crucial for maintaining the system's ethical use, ensuring patient safety, and fostering collaboration between technology and healthcare expertise.
+
 ## 6. Implementation
 
 ### 6.1. High-level design
