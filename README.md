@@ -15,21 +15,21 @@ Cardiovascular diseases, particularly heart failure, claim millions of lives ann
 ## 3. Success metrics
 Usually framed as business goals, such as increased customer engagement (e.g., CTR, DAU), revenue, or reduced cost.
 
-# The success of our machine learning system will be measured through several key business goals:
+The success of our machine learning system will be measured through several key business goals:
 
-# Accuracy:
+Accuracy:
 Achieve a minimum accuracy of 90% in predicting heart failure cases, ensuring the reliability of the model for medical professionals.
 
-# User Engagement: 
+User Engagement: 
 Measure user engagement through the adoption rate of the web application by healthcare providers. Aim for a significant increase in the number of users actively utilizing the system for patient assessments.
 
-# Timely Interventions:
+Timely Interventions:
 Monitor the average response time of healthcare professionals after receiving predictions. Strive for a reduction in response time, ensuring swift actions for patients identified as high-risk.
 
-# Patient Outcomes: 
+Patient Outcomes: 
 Evaluate the impact of early interventions on patient outcomes, measuring factors such as reduced hospitalizations, improved quality of life, and increased life expectancy.
 
-# Scalability: 
+Scalability: 
 Assess the system's scalability by monitoring its performance as the dataset grows. Ensure the model can handle increasing volumes of patient data without compromising accuracy, thus accommodating future expansions.
 
 ## 4. Requirements & Constraints
