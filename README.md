@@ -1,10 +1,5 @@
 # anvendt-data-science
 # ml-design-doc
-
-A template for design docs for machine learning systems based on this [post](https://eugeneyan.com/writing/ml-design-docs/).
-
-Note: This template is a guideline / checklist and is **not meant to be exhaustive**. The intent of the design doc is to help you think better (about the problem and design) and get feedback. Adopt whichever sections—and add new sections—to meet this goal. View other templates, examples [here](#other-templates-examples-etc).
-
 ---
 ## 1. Overview
 
@@ -20,17 +15,22 @@ Cardiovascular diseases, particularly heart failure, claim millions of lives ann
 ## 3. Success metrics
 Usually framed as business goals, such as increased customer engagement (e.g., CTR, DAU), revenue, or reduced cost.
 
-The success of our machine learning system will be measured through several key business goals:
+# The success of our machine learning system will be measured through several key business goals:
 
-Accuracy: Achieve a minimum accuracy of 90% in predicting heart failure cases, ensuring the reliability of the model for medical professionals.
+# Accuracy:
+Achieve a minimum accuracy of 90% in predicting heart failure cases, ensuring the reliability of the model for medical professionals.
 
-User Engagement: Measure user engagement through the adoption rate of the web application by healthcare providers. Aim for a significant increase in the number of users actively utilizing the system for patient assessments.
+# User Engagement: 
+Measure user engagement through the adoption rate of the web application by healthcare providers. Aim for a significant increase in the number of users actively utilizing the system for patient assessments.
 
-Timely Interventions: Monitor the average response time of healthcare professionals after receiving predictions. Strive for a reduction in response time, ensuring swift actions for patients identified as high-risk.
+# Timely Interventions:
+Monitor the average response time of healthcare professionals after receiving predictions. Strive for a reduction in response time, ensuring swift actions for patients identified as high-risk.
 
-Patient Outcomes: Evaluate the impact of early interventions on patient outcomes, measuring factors such as reduced hospitalizations, improved quality of life, and increased life expectancy.
+# Patient Outcomes: 
+Evaluate the impact of early interventions on patient outcomes, measuring factors such as reduced hospitalizations, improved quality of life, and increased life expectancy.
 
-Scalability: Assess the system's scalability by monitoring its performance as the dataset grows. Ensure the model can handle increasing volumes of patient data without compromising accuracy, thus accommodating future expansions.
+# Scalability: 
+Assess the system's scalability by monitoring its performance as the dataset grows. Ensure the model can handle increasing volumes of patient data without compromising accuracy, thus accommodating future expansions.
 
 ## 4. Requirements & Constraints
 Functional requirements are those that should be met to ship the project. They should be described in terms of the customer perspective and benefit. (See [this](https://eugeneyan.com/writing/ml-design-docs/#the-why-and-what-of-design-docs) for more details.)
