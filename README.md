@@ -223,13 +223,38 @@ Error Monitoring: Anomaly detection algorithms will be employed to identify unus
 ### 6.7. Cost
 How much will it cost to build and operate your system? Share estimated monthly costs (e.g., EC2 instances, Lambda, etc.)
 
+Estimated Monthly Costs:
+
+Cloud Infrastructure: Hosting the system on a cloud platform (e.g., AWS, Azure) will incur costs for virtual machines, storage, and networking resources. Estimated monthly costs could range from $3,000 to $5,000 depending on the chosen cloud provider and the scale of resources.
+Machine Learning Services: Costs associated with using machine learning services like AWS SageMaker or Azure ML for model training and inference, which could be around $1,000 to $2,000 monthly based on usage.
+Database: If a managed database service is used for storing patient data securely, monthly costs might be around $500 to $800.
+Security Services: Expenses for security services such as Web Application Firewall (WAF) and DDoS protection could add an additional $500 to $1,000 monthly.
+Monitoring and Logging: Costs related to centralized logging services and monitoring tools might range from $200 to $400 monthly.
+Total estimated monthly costs: $5,200 to $9,200
+
 ### 6.8. Integration points
 
 How will your system integrate with upstream data and downstream users?
 
+Upstream Data Integration:
+The system will integrate with electronic health records (EHR) systems to fetch historical patient data, enabling comprehensive analysis and prediction. Integration will be established through secure APIs and data pipelines.
+
+Downstream Users Integration:
+Healthcare professionals will access the system via the web application interface, allowing them to input patient data and receive predictions. Integration with user authentication systems will ensure secure user access and data privacy.
+
 ### 6.9. Risks & Uncertainties
 
 Risks are the known unknowns; uncertainties are the unknown unknows. What worries you and you would like others to review?
+
+Known Risks:
+
+Data Quality: Incomplete or inaccurate data in the dataset could lead to biased predictions, impacting the system's reliability. Rigorous data cleaning and validation processes will mitigate this risk.
+Regulatory Compliance: Ensuring compliance with healthcare regulations, especially regarding patient data privacy, is critical. Regular legal consultations will be sought to stay updated with evolving regulations.
+
+Unknown Uncertainties:
+
+Changing Healthcare Landscape: The evolution of healthcare practices and technologies might introduce unforeseen challenges. Continuous monitoring of industry trends and adaptability to new technologies will be essential to mitigate uncertainties.
+User Adoption: The acceptance and usage of the system by healthcare professionals might be unpredictable. User feedback loops and iterative improvements will be implemented to enhance user experience and address any adoption issues.
 
 ## 7. Appendix
 
