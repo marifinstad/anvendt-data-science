@@ -10,11 +10,27 @@ Note: This template is a guideline / checklist and is **not meant to be exhausti
 
 A summary of the doc's purpose, problem, solution, and desired outcome, usually in 3-5 sentences.
 
+This document outlines the design for a machine learning system aimed at predicting heart failure in individuals. The primary goal is to enhance early detection and management of heart diseases, which are responsible for 31% of global deaths. Leveraging a comprehensive dataset comprising 11 key features, our solution involves developing a robust and interpretable machine learning model. The desired outcome is to achieve a minimum accuracy of 90% in identifying potential heart disease cases. The solution will be delivered through an intuitive web application, empowering healthcare professionals to make timely and informed decisions.
+
 ## 2. Motivation
 Why the problem is important to solve, and why now.
 
+Cardiovascular diseases, particularly heart failure, claim millions of lives annually, necessitating urgent intervention. Early detection significantly improves patient outcomes, making it crucial to address this issue promptly. With the advent of advanced machine learning techniques and the availability of extensive datasets, now is an opportune moment to leverage these resources. By developing an accurate and efficient predictive model, we can revolutionize healthcare practices, enabling timely interventions and ultimately saving lives.
+
 ## 3. Success metrics
 Usually framed as business goals, such as increased customer engagement (e.g., CTR, DAU), revenue, or reduced cost.
+
+The success of our machine learning system will be measured through several key business goals:
+
+Accuracy: Achieve a minimum accuracy of 90% in predicting heart failure cases, ensuring the reliability of the model for medical professionals.
+
+User Engagement: Measure user engagement through the adoption rate of the web application by healthcare providers. Aim for a significant increase in the number of users actively utilizing the system for patient assessments.
+
+Timely Interventions: Monitor the average response time of healthcare professionals after receiving predictions. Strive for a reduction in response time, ensuring swift actions for patients identified as high-risk.
+
+Patient Outcomes: Evaluate the impact of early interventions on patient outcomes, measuring factors such as reduced hospitalizations, improved quality of life, and increased life expectancy.
+
+Scalability: Assess the system's scalability by monitoring its performance as the dataset grows. Ensure the model can handle increasing volumes of patient data without compromising accuracy, thus accommodating future expansions.
 
 ## 4. Requirements & Constraints
 Functional requirements are those that should be met to ship the project. They should be described in terms of the customer perspective and benefit. (See [this](https://eugeneyan.com/writing/ml-design-docs/#the-why-and-what-of-design-docs) for more details.)
