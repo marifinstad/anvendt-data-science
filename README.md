@@ -191,13 +191,34 @@ By implementing a cloud-based infrastructure, employing vertical and horizontal 
 
 How will your system/application authenticate users and incoming requests? If it's publicly accessible, will it be behind a firewall?
 
+Authentication and Authorization:
+Users and healthcare providers will be authenticated through secure methods such as username/passwords or multi-factor authentication. Access control will be implemented to ensure that only authorized personnel can access sensitive patient data.
+Incoming requests will be validated and authorized through API keys or tokens, ensuring that only trusted sources can interact with the system.
+
+Firewall and Public Accessibility:
+The system will be behind a firewall, protecting it from unauthorized access and potential cyber threats. Publicly accessible components will be protected by Web Application Firewalls (WAF) and other security measures to mitigate common web-based attacks.
+
 ### 6.5. Data privacy
 
 How will you ensure the privacy of customer data? Will your system be compliant with data retention and deletion policies (e.g., [GDPR](https://gdpr.eu/what-is-gdpr/))?
 
+Customer Data Privacy:
+
+Customer data will be encrypted both in transit and at rest, ensuring that any data exchanged between the user and the system remains confidential.
+Compliance with data protection regulations such as GDPR will be strictly adhered to. Data retention and deletion policies will be implemented, allowing users to request the deletion of their data after a specific period or upon request.
+
 ### 6.6. Monitoring & Alarms
 
 How will you log events in your system? What metrics will you monitor and how? Will you have alarms if a metric breaches a threshold or something else goes wrong?
+
+Logging and Event Tracking:
+System events, user interactions, and errors will be logged comprehensively. Centralized logging systems will be employed to store and monitor logs efficiently.
+Metrics related to system performance, user interactions, and prediction accuracy will be continuously collected and stored for analysis.
+
+Monitoring and Alerting:
+Metrics Monitoring: Key metrics such as system response time, prediction accuracy, and user engagement will be monitored in real-time.
+Threshold Alarms: Alarms will be set up to notify administrators if any monitored metric breaches predefined thresholds. For instance, if the system response time exceeds a certain limit or if prediction accuracy drops below an acceptable level, alerts will be triggered.
+Error Monitoring: Anomaly detection algorithms will be employed to identify unusual patterns in user behavior and system performance, triggering alarms if unexpected activities occur.
 
 ### 6.7. Cost
 How much will it cost to build and operate your system? Share estimated monthly costs (e.g., EC2 instances, Lambda, etc.)
