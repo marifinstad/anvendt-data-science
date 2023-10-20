@@ -75,13 +75,29 @@ Regulatory Compliance: While privacy and security measures will be implemented, 
 
 How will you frame the problem? For example, fraud detection can be framed as an unsupervised (outlier detection, graph cluster) or supervised problem (e.g., classification).
 
+The problem will be framed as a supervised binary classification task. Given the dataset's features, our goal is to predict whether a patient is at risk of heart failure (class 1) or not (class 0). This problem falls within the realm of supervised learning, where the algorithm learns from labeled training data to make predictions on unseen data.
+
 ### 5.2. Data
 
 What data will you use to train your model? What input data is needed during serving?
 
+The dataset containing 11 key features (age, sex, chest pain type, resting blood pressure, serum cholesterol, fasting blood sugar, resting electrocardiogram results, maximum heart rate achieved, exercise-induced angina, old peak, and the slope of the peak exercise ST segment) will be used for model training. During serving, the input data required will include these features for a given patient to predict the likelihood of heart failure.
+
 ### 5.3. Techniques
 
 What machine learning techniques will you use? How will you clean and prepare the data (e.g., excluding outliers) and create features?
+
+Data Cleaning and Preparation:
+
+Outlier Removal: Outliers in the dataset, if any, will be identified and removed to prevent them from skewing the model's predictions.
+  Feature Scaling: Features will be scaled to ensure uniformity, preventing any particular feature from dominating the model due to its scale.
+
+Feature Engineering:
+  Categorical Encoding: Categorical features like chest pain type and resting electrocardiogram results will be encoded into numerical values for model compatibility.
+  Feature Selection: Relevant features will be selected using techniques like correlation analysis and feature importance scores to enhance the model's accuracy and interpretability.
+
+Machine Learning Techniques:  
+  Algorithms: Several classification algorithms such as Random Forest, Gradient Boosting, and Logistic Regression will be employed for model training due to their suitability for binary classification tasks.
 
 ### 5.4. Experimentation & Validation
 
