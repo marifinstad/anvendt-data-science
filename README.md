@@ -1,20 +1,14 @@
 # anvendt-data-science
-# ml-design-doc
----
-## 1. Overview
 
-A summary of the doc's purpose, problem, solution, and desired outcome, usually in 3-5 sentences.
+## 1. Overview
 
 This document outlines the design for a machine learning system aimed at predicting heart failure in individuals. The primary goal is to enhance early detection and management of heart diseases, which are responsible for 31% of global deaths. Leveraging a comprehensive dataset comprising 11 key features, our solution involves developing a robust and interpretable machine learning model. The desired outcome is to achieve a minimum accuracy of 90% in identifying potential heart disease cases. The solution will be delivered through an intuitive web application, empowering healthcare professionals to make timely and informed decisions.
 
 ## 2. Motivation
-Why the problem is important to solve, and why now.
 
 Cardiovascular diseases, particularly heart failure, claim millions of lives annually, necessitating urgent intervention. Early detection significantly improves patient outcomes, making it crucial to address this issue promptly. With the advent of advanced machine learning techniques and the availability of extensive datasets, now is an opportune moment to leverage these resources. By developing an accurate and efficient predictive model, we can revolutionize healthcare practices, enabling timely interventions and ultimately saving lives.
 
 ## 3. Success metrics
-Usually framed as business goals, such as increased customer engagement (e.g., CTR, DAU), revenue, or reduced cost.
-
 The success of our machine learning system will be measured through several key business goals:
 
 Accuracy:
