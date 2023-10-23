@@ -33,62 +33,64 @@ Assess the system's scalability by monitoring its performance as the dataset gro
 In-Scope:
 
 Model Development: The creation of machine learning models utilizing the provided dataset and relevant algorithms to predict heart failure accurately.
+
 Feature Selection: Identifying and selecting the most pertinent features from the dataset, ensuring the model's accuracy and interpretability.
+
 Web Application Development: Designing and developing a user-friendly web application enabling healthcare professionals to input patient data, receive predictions, and interpret the results.
+
 Model Training: Training the machine learning model using appropriate algorithms, ensuring it achieves the desired accuracy level.
+
 User Interface (UI/UX): Designing an intuitive and visually appealing user interface for the web application, enhancing user experience and accessibility.
+
 Privacy and Security: Implementing robust security measures to protect patient data and ensuring compliance with healthcare regulations and privacy standards.
 
 
 Out-of-Scope:
 
 Data Collection: Gathering additional data beyond the provided dataset is out of scope for this project. The model will be developed based on the existing dataset's information.
+
 Hardware Infrastructure: Procuring or managing specific hardware infrastructure for the deployment of the system falls outside the project's scope. The focus is on the software and algorithmic aspects.
+
 Integration with External Systems: Integrating the web application with external healthcare systems (e.g., electronic health records) is not within the scope of this project.
+
 Long-Term Maintenance: Long-term maintenance and support post-deployment, including bug fixes and updates, are not included. This document focuses on the initial development phase.
+
 Regulatory Compliance: While privacy and security measures will be implemented, obtaining specific certifications or regulatory approvals are not the responsibility of this project.
 
 ## 5. Methodology
 
 ### 5.1. Problem statement
 
-How will you frame the problem? For example, fraud detection can be framed as an unsupervised (outlier detection, graph cluster) or supervised problem (e.g., classification).
-
 The problem will be framed as a supervised binary classification task. Given the dataset's features, our goal is to predict whether a patient is at risk of heart failure (class 1) or not (class 0). This problem falls within the realm of supervised learning, where the algorithm learns from labeled training data to make predictions on unseen data.
 
 ### 5.2. Data
-
-What data will you use to train your model? What input data is needed during serving?
 
 The dataset containing 11 key features (age, sex, chest pain type, resting blood pressure, serum cholesterol, fasting blood sugar, resting electrocardiogram results, maximum heart rate achieved, exercise-induced angina, old peak, and the slope of the peak exercise ST segment) will be used for model training. During serving, the input data required will include these features for a given patient to predict the likelihood of heart failure.
 
 ### 5.3. Techniques
 
-What machine learning techniques will you use? How will you clean and prepare the data (e.g., excluding outliers) and create features?
-
 Data Cleaning and Preparation:
 
 Outlier Removal: Outliers in the dataset, if any, will be identified and removed to prevent them from skewing the model's predictions.
-  Feature Scaling: Features will be scaled to ensure uniformity, preventing any particular feature from dominating the model due to its scale.
+
+Feature Scaling: Features will be scaled to ensure uniformity, preventing any particular feature from dominating the model due to its scale.
 
 Feature Engineering:
-  Categorical Encoding: Categorical features like chest pain type and resting electrocardiogram results will be encoded into numerical values for model compatibility.
-  Feature Selection: Relevant features will be selected using techniques like correlation analysis and feature importance scores to enhance the model's accuracy and interpretability.
+
+Categorical Encoding: Categorical features like chest pain type and resting electrocardiogram results will be encoded into numerical values for model compatibility.
+ 
+Feature Selection: Relevant features will be selected using techniques like correlation analysis and feature importance scores to enhance the model's accuracy and interpretability.
 
 Machine Learning Techniques:  
-  Algorithms: Several classification algorithms such as Random Forest, Gradient Boosting, and Logistic Regression will be employed for model training due to their suitability for binary classification tasks.
+
+Algorithms: Several classification algorithms such as Random Forest, Gradient Boosting, and Logistic Regression will be employed for model training due to their suitability for binary classification tasks.
 
 ### 5.4. Experimentation & Validation
 
-How will you validate your approach offline? What offline evaluation metrics will you use?
-
-If you're A/B testing, how will you assign treatment and control (e.g., customer vs. session-based) and what metrics will you measure? What are the success and [guardrail](https://medium.com/airbnb-engineering/designing-experimentation-guardrails-ed6a976ec669) metrics?
-
-
 Offline Validation:
 
-Validation Split: The dataset will be split into training and validation sets (e.g., 80% for training, 20% for validation) to assess the model's performance on unseen data.
-Metrics: Common metrics like accuracy, precision, recall, and F1-score will be calculated to evaluate the model's accuracy and ability to correctly identify cases of heart failure.
+  Validation Split: The dataset will be split into training and validation sets (e.g., 80% for training, 20% for validation) to assess the model's performance on unseen data.
+  Metrics: Common metrics like accuracy, precision, recall, and F1-score will be calculated to evaluate the model's accuracy and ability to correctly identify cases of heart failure.
 
 A/B Testing:
 
@@ -97,8 +99,6 @@ Metrics: The treatment group's response time, accuracy of interventions, and pat
 Guardrail Metrics: Guardrail metrics will include ensuring that the accuracy of the machine learning system does not fall below a specified threshold, guaranteeing that patient data privacy is maintained, and verifying that the response time of the system remains within an acceptable range.
 
 ### 5.5. Human-in-the-loop
-
-How will you incorporate human intervention into your ML system (e.g., product/customer exclusion lists)?
 
 Incorporating human intervention, also known as the human-in-the-loop approach, is essential for maintaining the ethical and responsible use of machine learning systems, especially in sensitive domains like healthcare. Here's how we plan to integrate human oversight into our ML system:
 
