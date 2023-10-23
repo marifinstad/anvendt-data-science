@@ -27,40 +27,25 @@ Scalability:
 Assess the system's scalability by monitoring its performance as the dataset grows. Ensure the model can handle increasing volumes of patient data without compromising accuracy, thus accommodating future expansions.
 
 ## 4. Requirements & Constraints
-Functional requirements are those that should be met to ship the project. They should be described in terms of the customer perspective and benefit. (See [this](https://eugeneyan.com/writing/ml-design-docs/#the-why-and-what-of-design-docs) for more details.)
-
-Non-functional/technical requirements are those that define system quality and how the system should be implemented. These include performance (throughput, latency, error rates), cost (infra cost, ops effort), security, data privacy, etc.
-
-Constraints can come in the form of non-functional requirements (e.g., cost below $`x` a month, p99 latency < `y`ms)
 
 ### 4.1 What's in-scope & out-of-scope?
-Some problems are too big to solve all at once. Be clear about what's out of scope.
 
-**In-Scope:
-**
+In-Scope:
+
 Model Development: The creation of machine learning models utilizing the provided dataset and relevant algorithms to predict heart failure accurately.
-
 Feature Selection: Identifying and selecting the most pertinent features from the dataset, ensuring the model's accuracy and interpretability.
-
 Web Application Development: Designing and developing a user-friendly web application enabling healthcare professionals to input patient data, receive predictions, and interpret the results.
-
 Model Training: Training the machine learning model using appropriate algorithms, ensuring it achieves the desired accuracy level.
-
 User Interface (UI/UX): Designing an intuitive and visually appealing user interface for the web application, enhancing user experience and accessibility.
-
 Privacy and Security: Implementing robust security measures to protect patient data and ensuring compliance with healthcare regulations and privacy standards.
 
 
-**Out-of-Scope:
-**
+Out-of-Scope:
+
 Data Collection: Gathering additional data beyond the provided dataset is out of scope for this project. The model will be developed based on the existing dataset's information.
-
 Hardware Infrastructure: Procuring or managing specific hardware infrastructure for the deployment of the system falls outside the project's scope. The focus is on the software and algorithmic aspects.
-
 Integration with External Systems: Integrating the web application with external healthcare systems (e.g., electronic health records) is not within the scope of this project.
-
 Long-Term Maintenance: Long-term maintenance and support post-deployment, including bug fixes and updates, are not included. This document focuses on the initial development phase.
-
 Regulatory Compliance: While privacy and security measures will be implemented, obtaining specific certifications or regulatory approvals are not the responsibility of this project.
 
 ## 5. Methodology
