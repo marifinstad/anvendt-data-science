@@ -11,7 +11,7 @@ Cardiovascular diseases, particularly heart failure, claim millions of lives ann
 ## 3. Success metrics
 The success of our machine learning system will be measured through several key business goals:
 
-Accuracy:
+**Accuracy:**
 Achieve a minimum accuracy of 90% in predicting heart failure cases, ensuring the reliability of the model for medical professionals.
 
 User Engagement: 
