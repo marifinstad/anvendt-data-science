@@ -248,22 +248,28 @@ Healthcare professionals will access the system via the web application interfac
 **Alternative 1: Rule-Based System**
 
 Pros: Simple to implement, interpretable rules, doesn't require extensive training data.
+
 Cons: Limited complexity, may miss subtle patterns, challenging to cover all scenarios.
+
 Rationale: Excluded due to the complexity of the heart failure prediction task, where patterns might be intricate and not easily captured by rules alone.
 
 **Alternative 2: Deep Learning Models**
 
 Pros: Can capture complex patterns in data, potential for high accuracy.
+
 Cons: Require large amounts of data, computationally intensive, lack interpretability.
+
 Rationale: While powerful, deep learning models were excluded due to the need for interpretable predictions in healthcare, where understanding the reasoning behind predictions is crucial for trust and adoption.
 
-**Alternative 3: Ensemble Methods
-**
+**Alternative 3: Ensemble Methods**
+
 Pros: Combine multiple models for improved accuracy and robustness.
+
 Cons: Complexity in model management, potential overfitting if not properly tuned.
+
 Rationale: Ensemble methods were considered and further explored due to their ability to enhance prediction accuracy while allowing for interpretability through feature importance analysis.
-Decision Rationale:
-The ensemble methods were chosen as they strike a balance between accuracy and interpretability. Random Forest, a widely used ensemble algorithm, was selected for its ability to handle complex relationships in data, provide feature importance scores, and offer good generalization performance.
+
+Decision Rationale: The ensemble methods were chosen as they strike a balance between accuracy and interpretability. Random Forest, a widely used ensemble algorithm, was selected for its ability to handle complex relationships in data, provide feature importance scores, and offer good generalization performance.
 
 ### 7.2. Experiment Results
 
@@ -278,10 +284,15 @@ Performance benchmarks, including throughput, latency, and instance size/count, 
 **Key Milestones:**
 
 Dataset Preparation and Cleaning: Q3 20XX
+
 Model Development and Training: Q4 20XX
+
 Web Application Development: Q1 20XX
+
 Offline Testing and Model Refinement: Q2 20XX
+
 Online Testing and User Feedback: Q3 20XX
+
 Deployment and Launch: Q4 20XX
 
 ### 7.5. Glossary
