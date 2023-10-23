@@ -23,14 +23,14 @@ Monitor the average response time of healthcare professionals after receiving pr
 **Patient Outcomes:**
 Evaluate the impact of early interventions on patient outcomes, measuring factors such as reduced hospitalizations, improved quality of life, and increased life expectancy.
 
-Scalability: 
+**Scalability:**
 Assess the system's scalability by monitoring its performance as the dataset grows. Ensure the model can handle increasing volumes of patient data without compromising accuracy, thus accommodating future expansions.
 
 ## 4. Requirements & Constraints
 
 ### 4.1 What's in-scope & out-of-scope?
 
-<ins>**In-Scope:**</ins>
+<ins> **In-Scope:** </ins>
 Model Development: The creation of machine learning models utilizing the provided dataset and relevant algorithms to predict heart failure accurately.
 
 Feature Selection: Identifying and selecting the most pertinent features from the dataset, ensuring the model's accuracy and interpretability.
