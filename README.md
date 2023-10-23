@@ -67,6 +67,8 @@ The problem will be framed as a supervised binary classification task. Given the
 
 The dataset containing 11 key features (age, sex, chest pain type, resting blood pressure, serum cholesterol, fasting blood sugar, resting electrocardiogram results, maximum heart rate achieved, exercise-induced angina, old peak, and the slope of the peak exercise ST segment) will be used for model training. During serving, the input data required will include these features for a given patient to predict the likelihood of heart failure.
 
+The dataset can be found here: https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction/data
+
 ### 5.3. Techniques
 
 <ins> **Data Cleaning and Preparation:** </ins>
