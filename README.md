@@ -14,13 +14,13 @@ The success of our machine learning system will be measured through several key 
 **Accuracy:**
 Achieve a minimum accuracy of 90% in predicting heart failure cases, ensuring the reliability of the model for medical professionals.
 
-User Engagement: 
+**User Engagement:**
 Measure user engagement through the adoption rate of the web application by healthcare providers. Aim for a significant increase in the number of users actively utilizing the system for patient assessments.
 
-Timely Interventions:
+**Timely Interventions:**
 Monitor the average response time of healthcare professionals after receiving predictions. Strive for a reduction in response time, ensuring swift actions for patients identified as high-risk.
 
-Patient Outcomes: 
+**Patient Outcomes:**
 Evaluate the impact of early interventions on patient outcomes, measuring factors such as reduced hospitalizations, improved quality of life, and increased life expectancy.
 
 Scalability: 
@@ -30,8 +30,7 @@ Assess the system's scalability by monitoring its performance as the dataset gro
 
 ### 4.1 What's in-scope & out-of-scope?
 
-In-Scope:
-
+<ins>**In-Scope:**</ins>
 Model Development: The creation of machine learning models utilizing the provided dataset and relevant algorithms to predict heart failure accurately.
 
 Feature Selection: Identifying and selecting the most pertinent features from the dataset, ensuring the model's accuracy and interpretability.
