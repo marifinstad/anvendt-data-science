@@ -6,7 +6,7 @@ This document outlines the design for a machine learning system aimed at predict
 
 ## 2. Motivation
 
-Cardiovascular diseases, particularly heart failure, claim millions of lives annually, necessitating urgent intervention. Early detection significantly improves patient outcomes, making it crucial to address this issue promptly. With the advent of advanced machine learning techniques and the availability of extensive datasets, now is an opportune moment to leverage these resources. By developing an accurate and efficient predictive model, we can revolutionize healthcare practices, enabling timely interventions and ultimately saving lives.
+Cardiovascular diseases, particularly heart failure, claim millions of lives annually, necessitating urgent intervention. Early detection significantly improves patient outcomes, making it crucial to address this issue promptly. [^1] With the advent of advanced machine learning techniques and the availability of extensive datasets, now is an opportune moment to leverage these resources. By developing an accurate and efficient predictive model, we can revolutionize healthcare practices, enabling timely interventions and ultimately saving lives.
 
 ## 3. Success metrics
 The success of our machine learning system will be measured through several key business goals:
@@ -24,7 +24,7 @@ Monitor the average response time of healthcare professionals after receiving pr
 Evaluate the impact of early interventions on patient outcomes, measuring factors such as reduced hospitalizations, improved quality of life, and increased life expectancy.
 
 **Scalability:**
-Assess the system's scalability by monitoring its performance as the dataset grows. Ensure the model can handle increasing volumes of patient data without compromising accuracy, thus accommodating future expansions.
+Assess the system's scalability by monitoring its performance as the dataset grows. Ensure the model can handle increasing volumes of patient data without compromising accuracy, thus accommodating future expansions. [^2]
 
 ## 4. Requirements & Constraints
 
@@ -153,7 +153,7 @@ The heart failure prediction system operates within a healthcare environment. He
 
 ### 6.2. Infra
 
-The system will be hosted on a cloud-based infrastructure, leveraging the scalability, flexibility, and security features offered by cloud platforms. Cloud hosting allows seamless deployment, easy access, and efficient management of resources. Moreover, it ensures high availability, enabling healthcare professionals to use the system reliably and securely from various locations.
+The system will be hosted on a cloud-based infrastructure, leveraging the scalability, flexibility, and security features offered by cloud platforms. Cloud hosting allows seamless deployment, easy access, and efficient management of resources. Moreover, it ensures high availability, enabling healthcare professionals to use the system reliably and securely from various locations. [^2]
 
 ### 6.3. Performance (Throughput, Latency)
 
@@ -187,13 +187,13 @@ The system will be behind a firewall, protecting it from unauthorized access and
 **Customer Data Privacy:**
 
 Customer data will be encrypted both in transit and at rest, ensuring that any data exchanged between the user and the system remains confidential.
-Compliance with data protection regulations such as GDPR will be strictly adhered to. Data retention and deletion policies will be implemented, allowing users to request the deletion of their data after a specific period or upon request.
+Compliance with data protection regulations such as GDPR will be strictly adhered to. Data retention and deletion policies will be implemented, allowing users to request the deletion of their data after a specific period or upon request. [^3]
 
 ### 6.6. Monitoring & Alarms
 
 **Logging and Event Tracking:**
 System events, user interactions, and errors will be logged comprehensively. Centralized logging systems will be employed to store and monitor logs efficiently.
-Metrics related to system performance, user interactions, and prediction accuracy will be continuously collected and stored for analysis.
+Metrics related to system performance, user interactions, and prediction accuracy will be continuously collected and stored for analysis. [^4]
 
 <ins> **Monitoring and Alerting:** </ins>
 
@@ -296,5 +296,8 @@ Deployment and Launch: Q4 20XX
 
 ### 7.6. References
 
-Add references that you might have consulted for your methodology.
+[^1]: https://www.who.int/
+[^2]: https://learn.microsoft.com/en-us/azure/?product=popular
+[^3]: https://gdpr.eu/
+[^4]: https://prometheus.io/docs/introduction/overview/
 
