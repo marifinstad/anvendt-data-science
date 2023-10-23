@@ -90,6 +90,7 @@ The dataset containing 11 key features (age, sex, chest pain type, resting blood
 <ins> **Offline Validation:** </ins>
 
 **Validation Split:** The dataset will be split into training and validation sets (e.g., 80% for training, 20% for validation) to assess the model's performance on unseen data.
+
 **Metrics:** Common metrics like accuracy, precision, recall, and F1-score will be calculated to evaluate the model's accuracy and ability to correctly identify cases of heart failure.
 
 <ins> **A/B Testing:** </ins>
