@@ -276,23 +276,23 @@ Offline experiments are in progress. Initial results will be available in Q1 20X
 
 ### 7.3. Performance benchmarks
 
-Performance benchmarks, including throughput, latency, and instance size/count, will be conducted during the online testing phase. Results will be available in Q2 20XX.
+Performance benchmarks, including throughput, latency, and instance size/count, will be conducted during the online testing phase. Results will be available in Q2 2024.
 
 ### 7.4. Milestones & Timeline
 
 **Key Milestones:**
 
-Dataset Preparation and Cleaning: Q3 20XX
+Dataset Preparation and Cleaning: Q3 2025
 
-Model Development and Training: Q4 20XX
+Model Development and Training: Q4 2025
 
-Web Application Development: Q1 20XX
+Web Application Development: Q1 2024
 
-Offline Testing and Model Refinement: Q2 20XX
+Offline Testing and Model Refinement: Q2 2024
 
-Online Testing and User Feedback: Q3 20XX
+Online Testing and User Feedback: Q3 2025
 
-Deployment and Launch: Q4 20XX
+Deployment and Launch: Q4 2026
 
 ### 7.5. Glossary
 
