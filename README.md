@@ -134,11 +134,8 @@ By incorporating these human-in-the-loop mechanisms, we ensure that the machine 
 
 ### 6.1. High-level design
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Data-flow-diagram-example.svg/1280px-Data-flow-diagram-example.svg.png)
-
-Start by providing a big-picture view. [System-context diagrams](https://en.wikipedia.org/wiki/System_context_diagram) and [data-flow diagrams](https://en.wikipedia.org/wiki/Data-flow_diagram) work well.
-
-MÅ LEGGE INNN BILDE 
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+ 
 
 **System Context:**
 The heart failure prediction system operates within a healthcare environment. Healthcare providers input patient data via a user-friendly web application. The input data is processed by the machine learning model, which predicts the likelihood of heart failure. Predictions and relevant patient information are then displayed back to the healthcare provider for review and action.
