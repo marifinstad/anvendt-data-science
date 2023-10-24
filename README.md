@@ -134,8 +134,8 @@ By incorporating these human-in-the-loop mechanisms, we ensure that the machine 
 
 ### 6.1. High-level design
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
- 
+![DFD](https://github.com/marifinstad/anvendt-data-science/blob/188d9bf6039aa0ee2bc3b992b8057c29bd904b5c/DFD%20for%20Heart%20Failure%20Predictions%20System.jpg)
+
 
 **System Context:**
 The heart failure prediction system operates within a healthcare environment. Healthcare providers input patient data via a user-friendly web application. The input data is processed by the machine learning model, which predicts the likelihood of heart failure. Predictions and relevant patient information are then displayed back to the healthcare provider for review and action.
